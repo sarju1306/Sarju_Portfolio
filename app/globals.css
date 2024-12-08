@@ -35,8 +35,8 @@ body {
   max-width: 1536px;
   margin-inline: auto;
   position: relative;
-  height: 100px;
-  margin-top: 5rem;
+  height: 70px;
+  margin-top: 1rem;
   overflow: hidden;
   mask-image: linear-gradient(
     to right,
@@ -56,7 +56,7 @@ body {
 .item {
 
   position: absolute;
-  left: max(calc(200px * 8), 100%);
+  left: max(calc(200px * 13), 100%);
   animation-name: scrollLeft;
   animation-duration: 30s;
   animation-timing-function: linear;
@@ -69,33 +69,52 @@ body {
 }
 
 .item1 {
-  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+  animation-delay: calc(30s / 13 * (13 - 1) * -1);
 }
 
 .item2 {
-  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+  animation-delay: calc(30s / 13 * (13 - 2) * -1);
 }
 
 .item3 {
-  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+  animation-delay: calc(30s / 13 * (13 - 3) * -1);
 }
 
 .item4 {
-  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+  animation-delay: calc(30s / 13 * (13 - 4) * -1);
 }
 
 .item5 {
-  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+  animation-delay: calc(30s / 13 * (13 - 5) * -1);
 }
 
 .item6 {
-  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+  animation-delay: calc(30s / 13 * (13 - 6) * -1);
 }
 
 .item7 {
-  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+  animation-delay: calc(30s / 13 * (13 - 7) * -1);
 }
 
 .item8 {
-  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+  animation-delay: calc(30s / 13 * (13 - 8) * -1);
+}
+
+.item9{
+  animation-delay: calc(30s / 13 * (13 - 9) * -1);
+}
+
+.item10 {
+  animation-delay: calc(30s / 13 * (13 - 10) * -1);
+}
+
+.item11 {
+  animation-delay: calc(30s / 13 * (13 - 11) * -1);
+}
+
+.item12 {
+  animation-delay: calc(30s / 13 * (13 - 12) * -1);
+}
+.item13 {
+  animation-delay: calc(30s / 13 * (13 - 13) * -1);
 }
